@@ -1,0 +1,23 @@
+# Local agent configuration
+.claude/
+
+# Stray Windows venv created by a literal ~ path
+**/~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Runtime output
+telemetry.csv
+*.ulg
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
